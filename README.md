@@ -1,15 +1,20 @@
 # Mining Clicker Game 🎮⛏️
 
-Welcome to the Mining Clicker Game! This is a simple and fun clicker game where you can mine coins and upgrade your mining capabilities. 
+![Mining Clicker Game Banner](path/to/your/banner.png)
 
-![Mining Clicker Game Screenshot](path/to/your/screenshot.png)
+Welcome to the **Mining Clicker Game**! A simple and fun clicker game where you can mine coins and upgrade your mining capabilities.
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/your-username/mining-clicker-game)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/mining-clicker-game)
+![GitHub issues](https://img.shields.io/github/issues/your-username/mining-clicker-game)
+![GitHub](https://img.shields.io/github/license/your-username/mining-clicker-game)
 
 ## 🌟 Features
 
-- 🖱️ Click to mine coins.
-- 📈 Upgrade your mining abilities to earn more coins per click.
-- 🎨 Aesthetic and responsive design.
-- 🔧 Easy to extend and customize.
+- 🖱️ **Click to mine coins**.
+- 📈 **Upgrade your mining abilities** to earn more coins per click.
+- 🎨 **Aesthetic and responsive design**.
+- 🔧 **Easy to extend and customize**.
 
 ## 📋 Table of Contents
 
@@ -22,6 +27,13 @@ Welcome to the Mining Clicker Game! This is a simple and fun clicker game where 
 - [Acknowledgements](#-acknowledgements)
 
 ## 🛠️ Installation
+
+### Prerequisites
+
+- [Python](https://www.python.org/downloads/) (version 3.6 or higher)
+- [Git](https://git-scm.com/)
+
+### Steps
 
 1. **Clone the repository**:
     ```bash
@@ -54,40 +66,16 @@ Welcome to the Mining Clicker Game! This is a simple and fun clicker game where 
 
 ## ⚙️ Configuration
 
+### Game Settings
+
 You can configure the game settings by modifying the `app.py` file and the templates in the `templates` folder.
 
-## 🤝 Contributing
+### Example
 
-Contributions are welcome! Please fork this repository and submit pull requests to contribute changes.
-
-1. **Fork the repository**.
-2. **Create a new branch**:
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-3. **Commit your changes**:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-4. **Push to the branch**:
-    ```bash
-    git push origin feature/your-feature
-    ```
-5. **Open a pull request**.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-- **Your Name**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [https://github.com/your-username](https://github.com/your-username)
-
-## 🙏 Acknowledgements
-
-- Thanks to all contributors and open-source projects that helped to make this project possible.
-
----
-
-✨ Enjoy playing and contributing to the Mining Clicker Game! ✨
+```python
+# app.py
+user_data = {
+    "score": 0,
+    "click_value": 1,
+    "upgrade_cost": 10
+}
