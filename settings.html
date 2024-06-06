@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">Mining Clicker Game</a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="upgrades.html">Upgrades</a>
+            <a class="nav-item nav-link active" href="settings.html">Settings</a>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <h1>Settings</h1>
+        <div class="settings-container">
+            <h2>Theme</h2>
+            <button onclick="setLightTheme()">Light Theme</button>
+            <button onclick="setDarkTheme()">Dark Theme</button>
+            <h2>Language</h2>
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('ru')">Russian</button>
+        </div>
+    </div>
+    <script>
+        function setLightTheme() {
+            document.body.style.backgroundColor = '#ecf0f1';
+            document.body.style.color = '#2c3e50';
+        }
+
+        function setDarkTheme() {
+            document.body.style.backgroundColor = '#2c3e50';
+            document.body.style.color = '#ecf0f1';
+        }
+
+        function setLanguage(lang) {
+            alert('Language set to ' + lang);
+        }
+    </script>
+</body>
+</html>
